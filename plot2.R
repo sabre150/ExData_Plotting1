@@ -27,7 +27,7 @@ png(file = outputFile)
 # Create the plot
 # Create blank plot
 #par( mar = c(5.1, 4.1, 4.1, 2.1)) # Default settings
-par( mar = c(5.1, 4.1,2,0), , bg = "transparent")
+par( mar = c(5.1, 4.1, 4.1, 2.1), bg = "transparent")
 
 with(dfPowerDtRange, plot(Time, Global_active_power, xlab = "",
                           cex.axis = 1.0, cex.lab = 1.0,

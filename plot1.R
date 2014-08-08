@@ -26,10 +26,10 @@ png(file = outputFile)
 
 # Create the plot
 #par( mar = c(5.1, 4.1, 4.1, 2.1)) # Default settings
-par( mar = c(5.1, 4.1,2,0))
+par( mar = c(5.1, 4.1,4.1,2.1), bg = "transparent")
 
-hist(dfPowerDtRange$Global_active_power, col = "red", cex.axis = 0.75,
-     cex.lab = 1.0, cex.main = 1.25 , font.main = 2,
+hist(dfPowerDtRange$Global_active_power, col = "red", cex.axis = 1.0,
+     cex.lab = 1.0, cex.main = 1.25 , font.main = 2, font.lab = 2, 
      main = "Global Active Power", xlab = "Global Active Power (kilowatts)")
 
 # Close png file
